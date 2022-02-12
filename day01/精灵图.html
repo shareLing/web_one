@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>精灵图应用</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      .container {
+        width: 420px;
+        height: 400px;
+        border: 1px solid #000;
+        margin: 50px auto;
+      }
+
+      .container li {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        border: 3px solid #ededed;
+        float: left;
+        margin: 33px;
+      }
+
+      .container li:hover {
+        border: 3px solid #ccc;
+      }
+
+      .bg1,
+      .bg2,
+      .bg3,
+      .bg4,
+      .bg5,
+      .bg6,
+      .bg7,
+      .bg8,
+      .bg9 {
+        background-image: url('./images/jinglingtu.png');
+        background-repeat: no-repeat;
+      }
+
+      .bg1 {
+        background-position: 0 0;
+      }
+
+      .bg2 {
+        background-position: -198px 0px;
+      }
+
+      .bg3 {
+        background-position: -133px 1px;
+      }
+
+      .bg4 {
+        background-position: -68px 0;
+      }
+
+      .bg5 {
+        background-position: 0 -72px;
+      }
+
+      .bg6 {
+        background-position: -199px -72px;
+      }
+
+      .bg7 {
+        background-position: -133px -72px;
+      }
+
+      .bg8 {
+        background-position: -67px -72px;
+      }
+
+      .bg9 {
+        background-position: 0 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul>
+        <li class="bg1"></li>
+        <li class="bg2"></li>
+        <li class="bg3"></li>
+        <li class="bg4"></li>
+        <li class="bg5"></li>
+        <li class="bg6"></li>
+        <li class="bg7"></li>
+        <li class="bg8"></li>
+        <li class="bg9"></li>
+      </ul>
+    </div>
+  </body>
+</html>

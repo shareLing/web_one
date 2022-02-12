@@ -1,0 +1,126 @@
+/* 版心公共类 */
+.container{
+    width: 1368px;
+    margin:0 auto;
+}
+/*登录注册快捷菜单模块  */
+.bxg_login_shortcut{
+    width: 1920px;
+    height: 57px;
+	background-color: #22282e;
+}
+.bxg_login_shortcut .container{
+    height: 57px;
+}
+.bxg_login_shortcut .container .logo{
+    width: 173px;
+	height: 57px;
+    /* background-color: red; */
+}
+.bxg_login_shortcut .container .logo a{
+    display: block;
+    height: 57px;
+    background: url(../images/logo.png)no-repeat;
+    background-size: 100%;
+    font-size: 0;
+}
+.bxg_login_shortcut .login{
+    width: 304px;
+    height:57px;
+    padding: 11px 35px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+.bxg_login_shortcut .login input{
+    display: inline-block;
+    width: 102px;
+	height: 35px;
+	border-radius: 17px;
+    font-size: 16px;
+    background-color: #22282e;
+	border: solid 2px #ffffff;
+    color: #ededee;
+}
+.bxg_login_shortcut .login input:first-child{
+    margin-right: 24px;
+}
+.bxg_login_shortcut .login input:hover{
+    background-color: orange;
+}
+
+/* ------导航栏模块：bxg_nav */
+.bxg_nav{
+    width: 1920px;
+	height: 58px;
+	/* background-color: #32a5d3; */
+}
+.bxg_nav .container{
+    height: 58px;
+}
+.bxg_nav .container .nav li{
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    margin-right: 76px;
+    font-size: 18px;
+    color:#424242;
+}
+.bxg_nav .container .nav ul .active{
+    color:#ff8227;
+}
+.bxg_nav .container .nav li:last-child{
+    margin-right: 0;
+    position: relative;
+}
+.bxg_nav .container .nav li:last-child img{
+    position: absolute;
+    top:2px;
+    right: -25px;
+}
+.bxg_nav .container .action{
+    width: 453px;
+    height: 58px;
+    /* background-color: red; */
+}
+.bxg_nav .container .action a{
+    height: 58px;
+    line-height: 58px;
+    margin-right: 88px;
+}
+.bxg_nav .container .action a:last-child{
+    margin-right: 0;
+    font-size: 15px;
+}
+
+/* 底部模块 */
+.connect{
+    width: 1920px;
+    height: 141px;
+    background-color: #2C3034;
+}
+.connect .container p{
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+.connect .container img{
+    margin-right: 30px;
+}
+.connect .container a{
+   margin-right: 40px;
+    color: #FFFFFF ;
+}
+.copyright{
+    width: 1920px;
+    height: 124px;
+    border-top: 2px solid #4D525A;
+    background-color: #2C3034;
+}
+.copyright p{
+    text-align: center;
+    color: #97979C;
+}
+.copyright p span{
+    margin-right: 30px;
+}
